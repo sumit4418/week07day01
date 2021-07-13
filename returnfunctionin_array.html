@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+            function addNumbers(num1,num2)
+            { let addArray=[(num1[0]+num2[0]), (num1[1]+num2[1]), (num1[2]+num2[2]), (num1[3]+num2[3])]
+            
+            return addArray;
+        }
+    </script>
+</head>
+<body>
+        <script type="text/javascript">
+        let numset1=[1,2,3,4]
+        let numset2=[2,3,4,5]
+        let resultArray=[];
+        resultArray= addNumbers(numset1,numset2);
+        document.write("Expected Return:["+  resultArray + "]<br/>");
+        document.write("-------------------------------------------<br>");
+        </script>
+</body>
+</html>
